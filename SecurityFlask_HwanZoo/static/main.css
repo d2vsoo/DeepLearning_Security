@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    border: 2px pink solid;
+    height: 80px;
+}
+
+#main {
+    position: absolute;
+    border: 2px rgb(104, 104, 209) dashed;
+    width: 80%;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer {
+    border: 2px darkcyan solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
